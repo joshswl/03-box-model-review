@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: ;
+  font-family: sans-serif;;
 }
 
 ul {
@@ -10,4 +10,50 @@ ul {
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.prompt {
+  text-align: center;
+}
+
+.section {
+  background: white;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.row {
+  margin: -2rem;
+  overflow: auto;
+}
+
+.grid-item {
+  width: calc(100% / 3 - 2rem - 2rem)
+  min-width: 8rem;
+  float: left;
+  margin: 0.5rem;
+}
+
+.cartoon {
+  margin: 0;
+}
+
+.cartoon_the {
+  color: #555;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: right;
+}
+.cartoon_char {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: right;
 }
