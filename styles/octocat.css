@@ -16,13 +16,15 @@ img {
   max-width: 100%;
 }
 
+strong {
+  color: black;
+}
+
 .prompt {
   text-align: center;
 }
 
 .section {
-  background: white;
-
   padding: 7rem;
 }
 
@@ -37,12 +39,11 @@ img {
 }
 
 .grid-item {
-  width: calc(100% / 3 - 2rem - 2rem);
+  width: calc(100% / 3 - 1rem);
   min-width: 8rem;
-  float: left;
   margin: 0.5rem;
-  border: #8e8e8e 0.1rem solid;
-  border-radius: 0.4rem;
+  border-radius: 0.25rem;
+  float: left;
 }
 
 .cartoon {
@@ -50,13 +51,32 @@ img {
 }
 
 .cartoon_the {
-  font-size: 1.6rem;
+  color: #707070;
+  font-size: 0.8rem;
   font-weight: bold;
   float: right;
+  margin-top: 0.2rem;
 }
 
 .cartoon_num {
-  font-size: 1.6rem;
+  font-size: 0.8rem;
   font-weight: bold;
   float: left;
+  margin-top: 0.2rem;
+}
+
+.cartoon_btmln {
+  border-bottom: #c2c2c2 0.05rem solid;
+  overflow: auto;
+}
+
+.the_image {
+  border: #c2c2c2 0.05rem solid;
+}
+
+.the_small_image {
+  width: 1.2rem;
+  float: right;
+  border-radius: 0.18rem;
+  margin-bottom: 0.35rem;
 }
