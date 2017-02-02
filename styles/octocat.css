@@ -22,7 +22,8 @@ img {
 
 .section {
   background: white;
-  padding: 2rem;
+
+  padding: 7rem;
 }
 
 .container {
@@ -36,10 +37,12 @@ img {
 }
 
 .grid-item {
-  width: calc(100% / 3 - 2rem - 2rem)
+  width: calc(100% / 3 - 2rem - 2rem);
   min-width: 8rem;
   float: left;
   margin: 0.5rem;
+  border: #8e8e8e 0.1rem solid;
+  border-radius: 0.4rem;
 }
 
 .cartoon {
@@ -47,13 +50,13 @@ img {
 }
 
 .cartoon_the {
-  color: #555;
   font-size: 1.6rem;
   font-weight: bold;
-  text-align: right;
+  float: right;
 }
-.cartoon_char {
+
+.cartoon_num {
   font-size: 1.6rem;
   font-weight: bold;
-  text-align: right;
+  float: left;
 }
